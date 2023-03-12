@@ -1,9 +1,11 @@
 .container {
-    width: 1296px;
+    max-width: 1296px;
     margin: 0 auto;
     }
 .header {
    background-color: #1E293B;
+   padding-left: 20px;
+   padding-right: 20px;
    &_btns {
     display: flex;
     justify-content: flex-end;
@@ -37,6 +39,8 @@
     }
 
 .main {
+    padding-left: 20px;
+   padding-right: 20px;
     &_menu {
     display: flex;
     flex-direction: row;
@@ -53,34 +57,34 @@
         line-height: 36px;
         color: #1E293B;
             }
-        &_categori {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            border: 1px solid #3B82F6;
-            background-color: transparent;
-            border-radius: 4px;
-            color: #3B82F6;
-            margin-left: 30px;
-           
-       
-            &_icon {
-               margin-right: 8px;
-               margin-left: 12px;
-                }
-            &_text {
-                font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-                }
-            }
         &_search {
             display: flex;
             flex-direction: row;
+            &_categori {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                border: 1px solid #3B82F6;
+                background-color: transparent;
+                border-radius: 4px;
+                color: #3B82F6;
+                margin-right: 12px;
+           
+       
+                &_icon {
+               margin-right: 8px;
+               margin-left: 12px;
+                }
+                &_text {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                }
+                }
             &_input {
             width: 734px;
             height: 36px;   
@@ -88,7 +92,7 @@
             border: 1px solid #CBD5E1;
             border-radius: 4px 0px 0px 4px;
             }
-        &_btn {
+            &_btn {
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -100,7 +104,7 @@
             border-radius: 0px 4px 4px 0px;
             border: none;
             cursor: pointer;
-            &_icon {
+                &_icon {
                 margin-left: 8px;
                 
                 }
