@@ -1,5 +1,6 @@
 .container {
-    width: 1300px;
+    width: 1296px;
+    margin: 0 auto;
     }
 .header {
    background-color: #1E293B;
@@ -19,11 +20,7 @@
         font-weight: 400;
         color: white;
         border: none;
-        &_icon {
-            
-            
-
-            }
+        cursor: pointer;
         }
     &_adv {
         width: 179px;
@@ -34,6 +31,146 @@
         border: none;
         font-weight: 500;
         margin-left: 24px; 
+        cursor: pointer;
         }
     }
+    }
+
+.main {
+    &_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal; 
+    padding-top: 24px;
+    padding-bottom: 24px;
+        &_name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #1E293B;
+            }
+        &_categori {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border: 1px solid #3B82F6;
+            background-color: transparent;
+            border-radius: 4px;
+            color: #3B82F6;
+            margin-left: 30px;
+           
+       
+            &_icon {
+               margin-right: 8px;
+               margin-left: 12px;
+                }
+            &_text {
+                font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+                }
+            }
+        &_search {
+            display: flex;
+            flex-direction: row;
+            &_input {
+            width: 734px;
+            height: 36px;   
+            background: #FFFFFF;
+            border: 1px solid #CBD5E1;
+            border-radius: 4px 0px 0px 4px;
+            }
+        &_btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 91px;
+            height: 36px;
+            background: #3B82F6;
+            color: white;
+            border-radius: 0px 4px 4px 0px;
+            border: none;
+            cursor: pointer;
+            &_icon {
+                margin-left: 8px;
+                
+                }
+            }
+            }
+        
+        
+    }
+    &_advs {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        &_name {
+            align-self: flex-start;
+           font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #1E293B;
+            margin-bottom: 24px; 
+            }
+        &_table {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 50px;
+            &_elem {
+                &_name {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #3B82F6;
+                    }
+                &_price {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #1E293B;
+                    }
+                &_town {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #64748B;
+                    }
+                &_time {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #64748B;
+                    }
+                }
+                
+            }
+        }
+    }
+
+hr {
+    color: #E2E8F0;
+    size: 2px;
+    
     }

@@ -1,5 +1,6 @@
 .container {
-  width: 1300px;
+  width: 1296px;
+  margin: 0 auto;
 }
 
 .header {
@@ -22,6 +23,7 @@
   font-weight: 400;
   color: white;
   border: none;
+  cursor: pointer;
 }
 .header_btns_adv {
   width: 179px;
@@ -32,4 +34,132 @@
   border: none;
   font-weight: 500;
   margin-left: 24px;
+  cursor: pointer;
+}
+
+.main_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.main_menu_name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #1E293B;
+}
+.main_menu_categori {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #3B82F6;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #3B82F6;
+  margin-left: 30px;
+}
+.main_menu_categori_icon {
+  margin-right: 8px;
+  margin-left: 12px;
+}
+.main_menu_categori_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.main_menu_search {
+  display: flex;
+  flex-direction: row;
+}
+.main_menu_search_input {
+  width: 734px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  border-radius: 4px 0px 0px 4px;
+}
+.main_menu_search_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 91px;
+  height: 36px;
+  background: #3B82F6;
+  color: white;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  cursor: pointer;
+}
+.main_menu_search_btn_icon {
+  margin-left: 8px;
+}
+.main_advs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.main_advs_name {
+  align-self: flex-start;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1E293B;
+  margin-bottom: 24px;
+}
+.main_advs_table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.main_advs_table_elem_name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #3B82F6;
+}
+.main_advs_table_elem_price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1E293B;
+}
+.main_advs_table_elem_town {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #64748B;
+}
+.main_advs_table_elem_time {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #64748B;
+}
+
+hr {
+  color: #E2E8F0;
+  size: 2px;
 }/*# sourceMappingURL=style.css.map */
