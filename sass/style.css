@@ -126,6 +126,9 @@
   flex-wrap: wrap;
   padding-bottom: 50px;
 }
+.main_advs_table_elem {
+  padding-bottom: 32px;
+}
 .main_advs_table_elem_name {
   font-family: "Inter";
   font-style: normal;
