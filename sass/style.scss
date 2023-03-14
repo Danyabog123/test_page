@@ -6,25 +6,38 @@
    background-color: #1E293B;
    padding-left: 20px;
    padding-right: 20px;
+   font-family: 'Inter';
+    font-style: normal;
    &_btns {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Inter';
-    font-style: normal;
     font-size: 14px;
     line-height: 20px;
     &_reg {
+        line-height: 32px;
         height: 32px;
         background-color: transparent;
         font-weight: 400;
         color: white;
         border: none;
         cursor: pointer;
+        &_icon {
+            line-height: 32px;
+            }
+        &_wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-content: center;
+            width: 70px;
+            }
         }
     &_adv {
+        text-align: center;
+        line-height: 32px;
         width: 179px;
         height: 32px;
         background: #3B82F6;
@@ -39,19 +52,17 @@
     }
 
 .main {
-    padding-left: 20px;
-   padding-right: 20px;
+    font-family: 'Inter';
+    font-style: normal; 
     &_menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Inter';
-    font-style: normal; 
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
         &_name {
-        font-family: 'Inter';
-        font-style: normal;
         font-weight: 700;
         font-size: 30px;
         line-height: 36px;
@@ -60,6 +71,11 @@
         &_search {
             display: flex;
             flex-direction: row;
+            &_wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content:flex-start;
+                }
             &_categori {
                 display: flex;
                 flex-direction: row;
@@ -78,8 +94,6 @@
                margin-left: 12px;
                 }
                 &_text {
-                font-family: 'Inter';
-                font-style: normal;
                 font-weight: 500;
                 font-size: 14px;
                 line-height: 20px;
@@ -117,11 +131,10 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-
+        padding-left: 20px;
+        padding-right: 20px;
         &_name {
             align-self: flex-start;
-           font-family: 'Inter';
-            font-style: normal;
             font-weight: 600;
             font-size: 24px;
             line-height: 32px;
@@ -135,34 +148,26 @@
             flex-wrap: wrap;
             padding-bottom: 50px;
             &_elem {
-                padding-bottom: 32px;
+                height: 350px;
                 &_name {
-                    font-family: 'Inter';
-                    font-style: normal;
                     font-weight: 600;
                     font-size: 18px;
                     line-height: 24px;
                     color: #3B82F6;
                     }
                 &_price {
-                    font-family: 'Inter';
-                    font-style: normal;
                     font-weight: 600;
                     font-size: 18px;
                     line-height: 24px;
                     color: #1E293B;
                     }
                 &_town {
-                    font-family: 'Inter';
-                    font-style: normal;
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 20px;
                     color: #64748B;
                     }
                 &_time {
-                    font-family: 'Inter';
-                    font-style: normal;
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 20px;

@@ -7,6 +7,8 @@
   background-color: #1E293B;
   padding-left: 20px;
   padding-right: 20px;
+  font-family: "Inter";
+  font-style: normal;
 }
 .header_btns {
   display: flex;
@@ -14,12 +16,11 @@
   flex-direction: row;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: "Inter";
-  font-style: normal;
   font-size: 14px;
   line-height: 20px;
 }
 .header_btns_reg {
+  line-height: 32px;
   height: 32px;
   background-color: transparent;
   font-weight: 400;
@@ -27,7 +28,19 @@
   border: none;
   cursor: pointer;
 }
+.header_btns_reg_icon {
+  line-height: 32px;
+}
+.header_btns_reg_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 70px;
+}
 .header_btns_adv {
+  text-align: center;
+  line-height: 32px;
   width: 179px;
   height: 32px;
   background: #3B82F6;
@@ -40,21 +53,19 @@
 }
 
 .main {
-  padding-left: 20px;
-  padding-right: 20px;
+  font-family: "Inter";
+  font-style: normal;
 }
 .main_menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: "Inter";
-  font-style: normal;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .main_menu_name {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -63,6 +74,11 @@
 .main_menu_search {
   display: flex;
   flex-direction: row;
+}
+.main_menu_search_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 .main_menu_search_categori {
   display: flex;
@@ -81,8 +97,6 @@
   margin-left: 12px;
 }
 .main_menu_search_categori_text {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -114,11 +128,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .main_advs_name {
   align-self: flex-start;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -133,35 +147,27 @@
   padding-bottom: 50px;
 }
 .main_advs_table_elem {
-  padding-bottom: 32px;
+  height: 350px;
 }
 .main_advs_table_elem_name {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   color: #3B82F6;
 }
 .main_advs_table_elem_price {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   color: #1E293B;
 }
 .main_advs_table_elem_town {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #64748B;
 }
 .main_advs_table_elem_time {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
